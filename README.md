@@ -1,1 +1,1 @@
-# Proyecto final de analisis y sistemas
+# Proyecto final de analisis y diseño de sistemas
