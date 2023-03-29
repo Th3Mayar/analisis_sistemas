@@ -51,7 +51,7 @@
 
     ###### Worker hace posible ejecutar una operación de secuencia de comandos en un subproceso de fondo separado del subproceso de ejecución principal de una aplicación web. La ventaja de esto es que el procesamiento laborioso se puede realizar en un subproceso separado, lo que permite que el subproceso principal (generalmente la interfaz de usuario) se ejecute sin bloquearse o ralentizarse.
 
-+ #### Postgree
++ #### Postgres
 
     ###### Worker hace posible ejecutar una operación de secuencia de comandos en un subproceso de fondo separado del subproceso de ejecución principal de una aplicación web. La ventaja de esto es que el procesamiento laborioso se puede realizar en un subproceso separado, lo que permite que el subproceso principal (generalmente la interfaz de usuario) se ejecute sin bloquearse o ralentizarse.
 
