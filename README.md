@@ -1,19 +1,19 @@
 # Proyecto final de analisis y diseño de sistemas
 
 #### Nombre:
-+ ##### Jose Francisco H.
++ ###### Jose Francisco H.
 
 #### Matrícula:
-+ ##### 2022 - 0115
++ ###### 2022 - 0115
 
 #### Fecha: 
-+ ##### 29/03/2023
++ ###### 29/03/2023
 
 #### Materia: 
-+ ##### Análisis de sistemas
++ ###### Análisis de sistemas
 
 #### Descripción: 
-+ #### Proyecto final de la asignatura, app con react y js
++ ###### Proyecto final de la asignatura, app con react y js
 
 ---
 
