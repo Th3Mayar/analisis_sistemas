@@ -24,3 +24,7 @@
 <hr>
 
 ## Marco Teórico
+
+#### nginx
+
+##### Es un servidor web/proxy inverso ligero de alto rendimiento y un proxy para protocolos de correo electrónico. <i style="color:red;">En el project escucha en el puerto 80 especificamente el 3050 y este se conecta al cliente/server en el puerto 3000 y la parte de server en el 5000 del api. Ademas, configura que la localizacion /api te mande directamente al contenedor del api, el cual se encuentra en el puerto 5000.</i>
