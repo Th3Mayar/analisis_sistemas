@@ -29,19 +29,20 @@
 
 + #### React
 
-    ###### Worker hace posible ejecutar una operación de secuencia de comandos en un subproceso de fondo separado del subproceso de ejecución principal de una aplicación web. La ventaja de esto es que el procesamiento laborioso se puede realizar en un subproceso separado, lo que permite que el subproceso principal (generalmente la interfaz de usuario) se ejecute sin bloquearse o ralentizarse.
+    ###### Es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre.
 
 + #### node.js
 
-    ###### Worker hace posible ejecutar una operación de secuencia de comandos en un subproceso de fondo separado del subproceso de ejecución principal de una aplicación web. La ventaja de esto es que el procesamiento laborioso se puede realizar en un subproceso separado, lo que permite que el subproceso principal (generalmente la interfaz de usuario) se ejecute sin bloquearse o ralentizarse.
+    ###### Node.js® is an open-source, cross-platform JavaScript runtime environment, que se encuentra en la parte del back-end, normalmente el javascript solo se encontraba en el front-end, pero resulta que lo modificaron y a partir de este crearon node.js, que se implementa ahora en la parte del servidor, en el caso de este proyecto, ahi es donde se implementa.
+
 
 + #### Api Rest
 
-    ###### Worker hace posible ejecutar una operación de secuencia de comandos en un subproceso de fondo separado del subproceso de ejecución principal de una aplicación web. La ventaja de esto es que el procesamiento laborioso se puede realizar en un subproceso separado, lo que permite que el subproceso principal (generalmente la interfaz de usuario) se ejecute sin bloquearse o ralentizarse.
+    ###### Esta parte del project es bastante interesante e importante, porque es la que hace las respectivas conexiones de los puertos ademas de crear la base de datos y almacenar los datos en ella mediante redis, tambien asi crea la conexion entre el usuario y el servidor, para que este se mantenga conectado a ambos, no a 1 a la vez.
 
 + #### Docker
 
-    ###### Worker hace posible ejecutar una operación de secuencia de comandos en un subproceso de fondo separado del subproceso de ejecución principal de una aplicación web. La ventaja de esto es que el procesamiento laborioso se puede realizar en un subproceso separado, lo que permite que el subproceso principal (generalmente la interfaz de usuario) se ejecute sin bloquearse o ralentizarse.
+    ###### Docker es una plataforma de código abierto para crear, implementar y gestionar aplicaciones en múltiples contenedores. Aprenda sobre los contenedores, cómo se comparan con las máquinas virtuales y por qué Docker es tan ampliamente adoptado y utilizado.
 
 + #### nginx
 
@@ -53,11 +54,11 @@
 
 + #### Postgres
 
-    ###### Worker hace posible ejecutar una operación de secuencia de comandos en un subproceso de fondo separado del subproceso de ejecución principal de una aplicación web. La ventaja de esto es que el procesamiento laborioso se puede realizar en un subproceso separado, lo que permite que el subproceso principal (generalmente la interfaz de usuario) se ejecute sin bloquearse o ralentizarse.
+    ###### Es un sistema de gestión de bases de datos relacional orientado a objetos, en el project sirve para crear la base de datos mediante postgres y almacenar los datos dentro de ella mediante redis, para posteriormente ser solicitados por redis tambien.
 
 + #### Redis
 
-    ###### Worker hace posible ejecutar una operación de secuencia de comandos en un subproceso de fondo separado del subproceso de ejecución principal de una aplicación web. La ventaja de esto es que el procesamiento laborioso se puede realizar en un subproceso separado, lo que permite que el subproceso principal (generalmente la interfaz de usuario) se ejecute sin bloquearse o ralentizarse.
+    ###### Es un motor de base de datos en memoria, basado en el almacenamiento en tablas de hashes pero que opcionalmente puede ser usada como una base de datos durable o persistente, en el project, redis se encarga de almacenar los datos digitados por el usuario para luego ser almacenados directamente a la base de datos de postgres.
 
 <hr>
 
