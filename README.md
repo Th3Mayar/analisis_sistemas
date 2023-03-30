@@ -64,10 +64,10 @@
 
 ## Video (Prueba de funcionamiento)
 
-    ## Img
+[Video de la prueba de funcionamiento]()
 
 <hr>
 
 ## Conclusiones y mejoras:
 
-    ## Mejoras
+#### Mejoras
