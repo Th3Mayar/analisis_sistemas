@@ -3,10 +3,12 @@
 #### Nombre:
 + ###### Jose Francisco H.
 + ###### Felix Josue Lopez.
++ ###### Kaolanny Rufino Morel.
 
 #### Matrícula:
 + ###### 2022 - 0115
 + ###### 2021 - 0116
++ ###### 2021 - 1089
 
 
 #### Fecha: 
