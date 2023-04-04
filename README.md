@@ -70,4 +70,18 @@
 
 ## Conclusiones y mejoras:
 
+###### Este proyecto cuando tuve la oportunidad de analizarlo brevemente me di cuenta de que las cosas mas importantes se encuentran en la parte de nginx, server y worker, la parte del cliente es de solo diseño de ahí importante importante podríamos sacar el js que se llama fib.js que básicamente lo que hace es calcular el fibonacci de la serie de números que digitemos. Y los almacena como anteriormente he dicho en la base de datos de redis para posteriormente este archivo sacar los datos directamente desde redis y postgres, porque la data que pasa por redis termina almacenandose en postgres.
+
 #### Mejoras
+
++ 1. ###### Me di cuenta de que en el input cuando le doy a enviar directamente no me hace nada, es decir que tengo que volver a recargar la página para que me haga el fibonacci de ese número que digité, y para corregirlo simplemente fui a la carpeta client.
+
+    +  ###### Fui a la carpeta client.
+    +  ###### Fui al archivo de fib.js
+    +  ###### Fui a la linea 29 del codigo y le puse lo siguiente...
+        + ###### this.fetchValues();
+        + ###### this.fetchIndexes(); 
+
++ 2. ###### Le mejoraria un poco mas el diseño de la estructura front-end del código debido a que es un poco no atractible pero de igual forma tiene un excelente funcionamiento en el back-end.
+
++ 3. ###### A ciertas personas le causó error el hecho de que en los docker-file.dev no se encontraba el comando RUN npm install nodemon, y al parecer a computadoras sin permisos de usuario autorizados no le instalaba el express, pero nodemon fue un error debido a que simplemente no se puso el comando, a mi no me dio ningun error porque yo ya tenia nodemon en mi computadora y todos los packages requieridos, tambien de express, pero esa seria la otra modificacion que yo le realicé.
