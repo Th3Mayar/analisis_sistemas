@@ -64,7 +64,7 @@
 
 ## Video (Prueba de funcionamiento)
 
-[Video de la prueba de funcionamiento]()
+[Video de la prueba de funcionamiento](https://drive.google.com/file/d/1yNd1l1tBnjhrsyk9LbsGYGdgn2KdwTML/view?usp=share_link)
 
 <hr>
 
