@@ -88,4 +88,14 @@
 
 + 2. ###### Le mejoraria un poco mas el diseño de la estructura front-end del código debido a que es un poco no atractible pero de igual forma tiene un excelente funcionamiento en el back-end.
 
+    + ###### Estéticamente:
+        + ###### Crear la cabecera horizontal para mejor estética y manejo en el sistema
+        + ###### Un formulario un poco mas grande y con estilo para llamar la atención del cliente
+        + ###### Poner de manera organizada los indexes una vez ejecutados
+        + ###### Usar otros colores para “Home” y “Other page” para mejor visibilidad de las palabras y mejor estética
+        + ###### Poner el icono mas pequeño en la esquina superior izquierda al lado de la cabecera para mejor estética
+
+    + ###### Otras Mejoras:
+        + ###### Que al cargar la pagina de nuevo los valores se queden guardados en caso de querer verlos de nuevo o haberle dado por error a cargar
+
 + 3. ###### A ciertas personas le causó error el hecho de que en los docker-file.dev no se encontraba el comando RUN npm install nodemon, y al parecer a computadoras sin permisos de usuario autorizados no le instalaba el express, pero nodemon fue un error debido a que simplemente no se puso el comando, a mi no me dio ningun error porque yo ya tenia nodemon en mi computadora y todos los packages requieridos, tambien de express, pero esa seria la otra modificacion que yo le realicé.
